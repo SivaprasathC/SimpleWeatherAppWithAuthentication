@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>Weather Now</title>
+    <script src="weather.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Weathercontainer">
+        <div class="Weather"> 
+            <form action="">
+            <label for="">Enter Latitude</label>
+            <input type="text" id="lat">
+            <label for="">Enter Longitude</label>
+            <input type="text" id="lon">
+            </form>
+            <button onclick="weather()">Get Weather Now</button>
+        </div>
+        <div class="weatherres" id="result">
+        </div>
+    </div>
+</body>
+</html>
