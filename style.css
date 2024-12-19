@@ -124,7 +124,7 @@ input[type="submit"]{
  }
  .weatherres{
   position: absolute;
-  top: 400px;
+  top: 500px;
   left: 44%;
   color: aliceblue;
  }
